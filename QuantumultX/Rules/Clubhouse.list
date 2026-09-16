@@ -1,0 +1,17 @@
+# Clubhouse
+# Clubhouse 主服务走代理
+
+host-suffix, clubhouse.com, proxy
+host-suffix, clubhouseapi.com, proxy
+host-suffix, joinclubhouse.com, proxy
+host, clubhouse.pubnub.com, proxy
+host, clubhouseprod.s3.amazonaws.com, proxy
+
+# Agora RTC
+# 实时语音保持 DIRECT
+
+host-suffix, agora.io, direct
+host-suffix, sd-rtn.com, direct
+host-suffix, rtnsvc.com, direct
+host-suffix, rtesvc.com, direct
+host-suffix, agoraio.cn, direct
